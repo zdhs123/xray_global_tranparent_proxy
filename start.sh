@@ -1,4 +1,3 @@
-root@slax:~# cat xray187/start.sh
 ip rule add fwmark 1 table 100
 ip route add local 0.0.0.0/0 dev lo table 100
 iptables -t mangle -N XRAY
