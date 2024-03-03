@@ -1,2 +1,2 @@
-ulimit -n 65535
-ulimit -u unlimited
+#ulimit -n 65535
+#ulimit -u unlimited
