@@ -1,5 +1,6 @@
    "dns": {
     "servers": [
+      "https://8.8.8.8/dns-query",
       "https://dns.quad9.net/dns-query"
     ]
   }
