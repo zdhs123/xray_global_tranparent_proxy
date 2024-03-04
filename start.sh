@@ -1,5 +1,6 @@
 ip rule add fwmark 1 table 100
 ip route add local 0.0.0.0/0 dev lo table 100
+iptables -t mangle -F
 iptables -t mangle -N XRAY
 iptables -t mangle -A XRAY -d 192.168.10.0/24 -j RETURN
 #iptables -t mangle -A XRAY -d 10.1.1.0/24 -j RETURN
