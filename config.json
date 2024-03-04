@@ -1,0 +1,5 @@
+   "dns": {
+    "servers": [
+      "https://dns.quad9.net/dns-query"
+    ]
+  }
